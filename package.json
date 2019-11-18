@@ -2,6 +2,7 @@
   "name": "lesson_2-3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "jss": "^10.0.0",
     "jss-preset-default": "^10.0.0",
