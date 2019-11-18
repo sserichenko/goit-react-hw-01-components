@@ -1,0 +1,48 @@
+.profileCardMain {
+  background: lightgray;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.profileCard {
+  background: white;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.paragraph__img {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+.paragraph {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.profile__name {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+}
+.paragraph__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.paragraph__item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}

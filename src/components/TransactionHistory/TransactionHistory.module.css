@@ -1,0 +1,18 @@
+.transaction__table {
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+}
+.transaction__thead {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  background: blue;
+}
+.transaction__tbody tr:nth-of-type(2n) {
+  background: lightgray;
+}

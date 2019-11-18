@@ -1,0 +1,48 @@
+.statistic__section {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  background-color: lightgreen;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.statistic__title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-weight: 700;
+  width: 200px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  background: white;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.statistic__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.statistic__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  height: 60px;
+  justify-content: space-around;
+}
+.statistic__label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.statistic__percentage {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}

@@ -1,0 +1,39 @@
+.FriendListItem__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: cornsilk;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 6px;
+  box-sizing: border-box;
+  box-shadow: 17px 17px 25px -6px rgba(0, 0, 0, 0.75);
+}
+.FriendListItem__status {
+  width: 20px;
+  height: 20px;
+  background: green;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.FriendListItem__notActive {
+  composes: FriendListItem__status;
+  background: red;
+}
+
+.FriendListItem__avatar {
+  display: block;
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.FriendListItem__name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
